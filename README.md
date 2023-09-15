@@ -2,7 +2,7 @@
 
 ## Model Architecture
 
-Photo reconstruction is a challenging task in computer vision that aims to reconstruct high-quality images from incomplete or degraded inputs. It has various applications in fields such as satellite imagery, medical imaging, and artistic rendering. In recent years, deep learning models have been widely used for photo reconstruction tasks due to their ability to learn representations from large datasets and capture high-level features. 
+Photo reconstruction is a challenging task in computer vision that aims to reconstruct high-quality images from incomplete or degraded inputs. It has various applications in fields such as satellite imagery, medical imaging, and artistic rendering. In recent years, deep learning models have been widely used for photo reconstruction tasks due to their ability to learn representations from large datasets and capture high-level features. 
 
 Explored different deep neural networks such as BiLSTM, Pix2Pix, Context Encoder, and Stable Diffusion for reconstructing high-quality images from degraded inputs. The degraded inputs have missing pixels i.e. the inputs contain masks. Performed some experiments including fine-tuning to evaluate the performance of our models, and have analyzed the results.
 Tried implementing recurrent neural network (RNN) as BiLSTM, conditional GAN as Pix2Pix, & Context Encoder. Also, done inferencing of the pre-trained text-to-image diffusion model Stable Diffusion, for this image inpainting task.
